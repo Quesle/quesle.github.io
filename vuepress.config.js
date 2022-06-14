@@ -18,5 +18,5 @@ module.exports = {
       "/log",
     ],
   }),
-  dest: "./public",
+  dest: "./docs",
 };
