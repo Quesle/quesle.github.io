@@ -5,10 +5,19 @@ module.exports = {
   title: "张小慕的博客",
   description: "这是我的第一个 VuePress 站点",
   theme: defaultTheme({
+    collapsible: true,
+    lastUpdated: true,
+    sidebarDepth: 0,
+    lastUpdatedText: "上次更新",
+    contributorsText: "贡献者",
+    openInNewWindow: "在新窗口打开",
+    toggleColorMode: "切换颜色模式",
+    toggleSidebar: "切换侧边栏",
     sidebar: [
       {
         text: "深入学习React",
         link: "/react/",
+        collapsible: true,
         children: [
           "/react/01.virtual_dom.md",
           "/react/02.virtual_dom_and_mvvm.md",
@@ -16,14 +25,16 @@ module.exports = {
           "/react/05.fiber.md",
         ],
       },
-      // {
-      //   text: "浏览器的那些玩意",
-      //   link: "/browser/",
-      //   children: ["/browser/01.enter_url.md"],
-      // },
+      {
+        text: "深入理解HTTP",
+        link: "/http/",
+        collapsible: true,
+        children: ["/http/01.http_cache.md"],
+      },
       {
         text: "使用 Github Pages 搭建 Blog",
         link: "/blog/",
+        collapsible: true,
         children: [
           "/blog/01.create_github_pages.md",
           "/blog/02.create_blog_by_vuepress.md",
