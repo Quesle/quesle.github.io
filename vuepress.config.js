@@ -7,6 +7,21 @@ module.exports = {
   theme: defaultTheme({
     sidebar: [
       {
+        text: "深入学习React",
+        link: "/react/",
+        children: [
+          "/react/01.virtual_dom.md",
+          "/react/02.virtual_dom_and_mvvm.md",
+          "/react/03.automatic_batching.md",
+          "/react/05.fiber.md",
+        ],
+      },
+      // {
+      //   text: "浏览器的那些玩意",
+      //   link: "/browser/",
+      //   children: ["/browser/01.enter_url.md"],
+      // },
+      {
         text: "使用 Github Pages 搭建 Blog",
         link: "/blog/",
         children: [

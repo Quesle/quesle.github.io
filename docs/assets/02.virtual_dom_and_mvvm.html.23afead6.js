@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-f0641786","path":"/react/02.virtual_dom_and_mvvm.html","title":"\u865A\u62DF DOM vs MVVM","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"react/02.virtual_dom_and_mvvm.md"}');export{t as data};
