@@ -28,7 +28,7 @@ module.exports = {
         text: "深入理解HTTP",
         link: "/http/",
         collapsible: true,
-        children: ["/http/01.http_cache.md","/http/02.http_cache.md"],
+        children: ["/http/01.http_cache.md","/http/02.http_zip.md"],
       },
       {
         text: "使用 Github Pages 搭建 Blog",
