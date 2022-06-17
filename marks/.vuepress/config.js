@@ -5,11 +5,10 @@ module.exports = {
   title: "张小慕的博客",
   description: "这是我的第一个 VuePress 站点",
   theme: defaultTheme({
+    contributors: false,
+    lastUpdated: false,
     collapsible: true,
-    lastUpdated: true,
     sidebarDepth: 0,
-    lastUpdatedText: "上次更新",
-    contributorsText: "贡献者",
     openInNewWindow: "在新窗口打开",
     toggleColorMode: "切换颜色模式",
     toggleSidebar: "切换侧边栏",
